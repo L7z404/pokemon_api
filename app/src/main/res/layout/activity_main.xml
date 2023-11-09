@@ -7,11 +7,35 @@
     >
 
     <TextView
+        android:id="@+id/favpokemon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pokemon Favorito"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="textStart"
+        />
+
+    <TextView
         android:id="@+id/data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Info"
-        android:textColor="@color/black"
+        android:textColor="@color/purple_200"
         android:textSize="30sp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
